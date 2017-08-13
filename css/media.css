@@ -1,0 +1,23 @@
+/*通过媒体查询精确在不同屏宽设备中设置样式*/
+
+@media screen and (max-width: 1210px) {
+	.inner {
+		width: 100%;
+		min-width: 100%;
+	}
+	#enter {
+		right: 1rem;
+	}
+}
+
+@media screen and (max-width:823px) {
+	header {
+		display: none;
+	}
+	#enter {
+		top: 1.8rem;
+	}
+	#aside {
+		display: block;
+	}
+}

@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+	text-align: center;
+	background: #000;
+}
+
+.mm {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mm1 {
+	height: 10rem;
+	margin-top: 10rem;
+}
+
+.main {
+	font-size: 2rem;
+	color: #fff;
+	font-family: "微软雅黑";
+	margin-top: 2.5rem;
+}
+
+.main>info {
+	width: 90%;
+	height: 4rem;
+	color: pink: font-size:3rem;
+}
+
+.main>p {
+	width: 90%;
+	height: 4rem;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#user,
+#pass {
+	width: 20rem;
+	height: 3rem;
+	font-size: 1.5rem;
+}
+
+.login>input {
+	width: 11%;
+	height: 3rem;
+	font-size: 1.4rem;
+	outline: medium;
+	cursor: pointer;
+	margin-top: 2rem;
+}
