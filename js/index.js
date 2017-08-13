@@ -7,14 +7,13 @@ $.each(img, function(t) {
 
 });
 $(function() {
-	function info() {
-		$.each(info, function(i) {
-			$('#info').html(info[i]);
-		})
+	function ini() {
+		var temp = Math.floor(Math.random() * info.length)
+		$('#info').html(info[temp]);
 	};
-	info();
-	setInterval(info, 10);
-	clearInterval(info);
+	setInterval(ini, 2750);
+	clearInterval(ini);
+
 });
 $(function() {
 	var hig = $(window).height();
@@ -25,5 +24,11 @@ $(function() {
 $(function() {
 	$('#aside>.menu').click(function() {
 		$('.menuList').slideToggle(1000)
+	});
+	$('.share1>.btn').click(function() {
+		$('.share1_link').slideToggle(500)
+	});
+	$('.share1').mouseleave(function() {
+		$('.share1_link').slideUp(500)
 	});
 })

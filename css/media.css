@@ -20,4 +20,18 @@
 	#aside {
 		display: block;
 	}
+	.logo {}
+	.swiper-pagination-bullet {
+		width: 0.5rem!important;
+		height: 0.5rem!important;
+	}
+}
+
+@media screen and (max-width:525px) {
+	.share {
+		display: none;
+	}
+	.share1 {
+		display: block;
+	}
 }
